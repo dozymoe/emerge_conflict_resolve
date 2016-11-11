@@ -1,0 +1,17 @@
+## python
+
+/.virtualenv/
+__pycache__/
+/python_modules
+*.pyc
+
+
+## git
+
+*.orig
+
+
+## vim
+
+*.swo
+*.swp

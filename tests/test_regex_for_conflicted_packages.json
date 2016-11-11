@@ -1,0 +1,334 @@
+[
+    {
+        "output": "    dev-qt/qtdbus:4[abi_x86_32(-)] required by (net-im/skype-4.3.0.37-r6:0/0::gentoo, installed)",
+        "result": ["dev-qt/qtdbus", "net-im/skype"]
+    },
+    {
+        "output": "    >=x11-libs/libSM-1.2.1-r1[abi_x86_32(-),abi_x86_64(-)] required by (dev-qt/qtgui-4.8.6-r4:4/4::gentoo, installed)",
+        "result": ["x11-libs/libSM", "dev-qt/qtgui"]
+    },
+    {
+        "output": "    >=x11-libs/libXcursor-1.1.13-r1[abi_x86_32(-),abi_x86_64(-)] required by (dev-qt/qtgui-4.8.6-r4:4/4::gentoo, installed)",
+        "result": ["x11-libs/libXcursor", "dev-qt/qtgui"]
+    },
+    {
+        "output": "    x11-libs/libXScrnSaver[abi_x86_32(-)] required by (net-im/skype-4.3.0.37-r6:0/0::gentoo, installed)",
+        "result": ["x11-libs/libXScrnSaver", "net-im/skype"]
+    },
+    {
+        "output": "    x11-libs/libXinerama[abi_x86_32(-),abi_x86_64(-)] required by (x11-drivers/ati-drivers-15.12-r1:1/1::gentoo, installed)",
+        "result": ["x11-libs/libXinerama", "x11-drivers/ati-drivers"]
+    },
+    {
+        "output": "    >=x11-proto/xextproto-7.2.1-r1[abi_x86_32(-),abi_x86_64(-)] required by (x11-libs/libXfixes-5.0.3:0/0::gentoo, installed)",
+        "result": ["x11-proto/xextproto", "x11-libs/libXfixes"]
+    },
+    {
+        "output": "    >=x11-proto/xextproto-7.2.1-r1[abi_x86_32(-),abi_x86_64(-)] required by (x11-libs/libXi-1.7.7:0/0::gentoo, installed)",
+        "result": ["x11-proto/xextproto", "x11-libs/libXi"]
+    },
+    {
+        "output": "    >=x11-proto/xextproto-7.2.1-r1[abi_x86_32(-),abi_x86_64(-)] required by (x11-libs/libXrandr-1.5.1:0/0::gentoo, installed)",
+        "result": ["x11-proto/xextproto", "x11-libs/libXrandr"]
+    },
+    {
+        "output": "    >=x11-proto/xextproto-7.2.1-r1[abi_x86_32(-),abi_x86_64(-)] required by (x11-libs/libX11-1.6.4:0/0::gentoo, installed)",
+        "result": ["x11-proto/xextproto", "x11-libs/libX11"]
+    },
+    {
+        "output": "    >=x11-proto/xextproto-7.2.1-r1:=[abi_x86_32(-),abi_x86_64(-)] required by (x11-libs/libXext-1.3.3:0/0::gentoo, installed)",
+        "result": ["x11-proto/xextproto", "x11-libs/libXext"]
+    },
+    {
+        "output": "    >=x11-proto/xextproto-7.2.1-r1[abi_x86_32(-),abi_x86_64(-)] required by (x11-libs/libXxf86vm-1.1.4:0/0::gentoo, installed)",
+        "result": ["x11-proto/xextproto", "x11-libs/libXxf86vm"]
+    },
+    {
+        "output": "    >=x11-proto/xextproto-7.2.1-r1:0/0=[abi_x86_32(-),abi_x86_64(-)] required by (x11-libs/libXext-1.3.3:0/0::gentoo, installed)",
+        "result": ["x11-proto/xextproto", "x11-libs/libXext"]
+    },
+    {
+        "output": "    >=x11-proto/xextproto-7.2.1-r1[abi_x86_32(-),abi_x86_64(-)] required by (x11-proto/fixesproto-5.0-r1:0/0::gentoo, installed)",
+	"result": ["x11-proto/xextproto", "x11-proto/fixesproto"]
+    },
+    {
+        "output": "    >=x11-proto/xextproto-7.2.1-r1[abi_x86_32(-),abi_x86_64(-)] required by (x11-libs/libXinerama-1.1.3:0/0::gentoo, installed)",
+	"result": ["x11-proto/xextproto", "x11-libs/libXinerama"]
+    },
+    {
+        "output": "    >=x11-libs/libXdamage-1.1.4-r1:=[abi_x86_32(-),abi_x86_64(-)] required by (media-libs/mesa-13.0.0_rc1:0/0::gentoo, installed)",
+	"result": ["x11-libs/libXdamage", "media-libs/mesa"]
+    },
+    {
+        "output": "    >=x11-libs/libXdamage-1.1.4-r1:0/0=[abi_x86_32(-),abi_x86_64(-)] required by (media-libs/mesa-13.0.0_rc1:0/0::gentoo, installed)",
+	"result": ["x11-libs/libXdamage", "media-libs/mesa"]
+    },
+    {
+        "output": "    >=virtual/libffi-3.0.13-r1:0=[abi_x86_32(-),abi_x86_64(-)] required by (sys-devel/llvm-3.7.1-r3:0/3.7.1::gentoo, installed)",
+	"result": ["virtual/libffi", "sys-devel/llvm"]
+    },
+    {
+        "output": "    >=virtual/libffi-3.0.13-r1[abi_x86_32(-),abi_x86_64(-)] required by (dev-libs/glib-2.48.2:2/2::gentoo, installed)",
+	"result": ["virtual/libffi", "dev-libs/glib"]
+    },
+    {
+        "output": "    >=virtual/libffi-3.0.13-r1:0/0=[abi_x86_32(-),abi_x86_64(-)] required by (sys-devel/llvm-3.7.1-r3:0/3.7.1::gentoo, installed)",
+	"result": ["virtual/libffi", "sys-devel/llvm"]
+    },
+    {
+        "output": "    =virtual/libffi-3.0.13-r1[abi_x86_32(-),abi_x86_64(-)] required by (sys-devel/llvm-3.7.1-r3:0/3.7.1::gentoo, installed)",
+	"result": ["virtual/libffi", "sys-devel/llvm"]
+    },
+    {
+        "output": "    >=sys-libs/zlib-1.2.8-r1[abi_x86_32(-),abi_x86_64(-)] required by (net-libs/gnutls-3.3.24-r1:0/0::gentoo, installed)",
+	"result": ["sys-libs/zlib", "net-libs/gnutls"]
+    },
+    {
+        "output": "    >=sys-libs/zlib-1.2.8-r1[abi_x86_32(-),abi_x86_64(-)] required by (dev-libs/elfutils-0.166:0/0::gentoo, installed)",
+	"result": ["sys-libs/zlib", "dev-libs/elfutils"]
+    },
+    {
+        "output": "    >=sys-libs/zlib-1.2.8-r1[abi_x86_32(-),abi_x86_64(-)] required by (dev-libs/openssl-1.0.2j:0/0::gentoo, installed)",
+	"result": ["sys-libs/zlib", "dev-libs/openssl"]
+    },
+    {
+        "output": "    >=sys-libs/zlib-1.2.8-r1[abi_x86_32(-),abi_x86_64(-)] required by (media-libs/libmng-2.0.2-r1:0/2::gentoo, installed)",
+	"result": ["sys-libs/zlib", "media-libs/libmng"]
+    },
+    {
+        "output": "    >=sys-libs/zlib-1.2.8-r1:0/0=[abi_x86_32(-),abi_x86_64(-)] required by (media-libs/libpng-1.6.21:0/16::gentoo, installed)",
+	"result": ["sys-libs/zlib", "media-libs/libpng"]
+    },
+    {
+        "output": "    >=sys-libs/zlib-1.2.8-r1[abi_x86_32(-),abi_x86_64(-)] required by (dev-libs/glib-2.48.2:2/2::gentoo, installed)",
+	"result": ["sys-libs/zlib", "dev-libs/glib"]
+    },
+    {
+        "output": "    >=sys-libs/zlib-1.2.8-r1:0/0=[abi_x86_32(-),abi_x86_64(-)] required by (media-libs/lcms-2.6-r1:2/2::gentoo, installed)",
+	"result": ["sys-libs/zlib", "media-libs/lcms"]
+    },
+    {
+        "output": "    >=sys-libs/zlib-1.2.8-r1[abi_x86_32(-),abi_x86_64(-)] required by (media-libs/gst-plugins-base-0.10.36-r2:0.10/0.10::gentoo, installed)",
+	"result": ["sys-libs/zlib", "media-libs/gst-plugins-base"]
+    },
+    {
+        "output": "    >=sys-libs/zlib-1.2.8-r1:0/0=[abi_x86_32(-),abi_x86_64(-)] required by (media-libs/tiff-4.0.6:0/0::gentoo, installed)",
+	"result": ["sys-libs/zlib", "media-libs/tiff"]
+    },
+    {
+        "output": "    >=sys-libs/zlib-1.2.8-r1[abi_x86_32(-),abi_x86_64(-)] required by (dev-qt/qtgui-4.8.6-r4:4/4::gentoo, installed)",
+	"result": ["sys-libs/zlib", "dev-qt/qtgui"]
+    },
+    {
+        "output": "    >=sys-libs/zlib-1.2.8-r1:=[abi_x86_32(-),abi_x86_64(-)] required by (media-libs/lcms-2.6-r1:2/2::gentoo, installed)",
+	"result": ["sys-libs/zlib", "media-libs/lcms"]
+    },
+    {
+        "output": "    >=sys-libs/zlib-1.2.8-r1[abi_x86_32(-),abi_x86_64(-)] required by (media-libs/freetype-2.6.3-r1:2/2::gentoo, installed)",
+	"result": ["sys-libs/zlib", "media-libs/freetype"]
+    },
+    {
+        "output": "    >=sys-libs/zlib-1.2.8-r1:0/0=[abi_x86_32(-),abi_x86_64(-)] required by (dev-libs/libxml2-2.9.4:2/2::gentoo, installed)",
+	"result": ["sys-libs/zlib", "dev-libs/libxml2"]
+    },
+    {
+        "output": "    >=sys-libs/zlib-1.2.8-r1[abi_x86_32(-),abi_x86_64(-)] required by (dev-qt/qtcore-4.8.6-r2:4/4::gentoo, installed)",
+	"result": ["sys-libs/zlib", "dev-qt/qtcore"]
+    },
+    {
+        "output": "    >=sys-libs/zlib-1.2.8-r1:=[abi_x86_32(-),abi_x86_64(-)] required by (dev-libs/libxml2-2.9.4:2/2::gentoo, installed)",
+	"result": ["sys-libs/zlib", "dev-libs/libxml2"]
+    },
+    {
+        "output": "    >=sys-libs/zlib-1.2.8-r1:=[abi_x86_32(-),abi_x86_64(-)] required by (media-libs/libpng-1.6.21:0/16::gentoo, installed)",
+	"result": ["sys-libs/zlib", "media-libs/libpng"]
+    },
+    {
+        "output": "    >=sys-libs/zlib-1.2.8-r1:=[abi_x86_32(-),abi_x86_64(-)] required by (media-libs/tiff-4.0.6:0/0::gentoo, installed)",
+	"result": ["sys-libs/zlib", "media-libs/tiff"]
+    },
+    {
+        "output": "    sys-libs/readline:0/0=[abi_x86_32(-),abi_x86_64(-)] required by (dev-db/sqlite-3.13.0:3/3::gentoo, installed)",
+	"result": ["sys-libs/readline", "dev-db/sqlite"]
+    },
+    {
+        "output": "    sys-libs/readline:0=[abi_x86_32(-),abi_x86_64(-)] required by (dev-db/sqlite-3.13.0:3/3::gentoo, installed)",
+	"result": ["sys-libs/readline", "dev-db/sqlite"]
+    },
+    {
+        "output": "    sys-libs/gpm[abi_x86_32(-),abi_x86_64(-)] required by (sys-libs/ncurses-5.9-r5:0/5::gentoo, installed)",
+	"result": ["sys-libs/gpm", "sys-libs/ncurses"]
+    },
+    {
+        "output": "    >=x11-proto/scrnsaverproto-1.2.2-r1[abi_x86_32(-),abi_x86_64(-)] required by (x11-libs/libXScrnSaver-1.2.2-r1:0/0::gentoo, installed)",
+	"result": ["x11-proto/scrnsaverproto", "x11-libs/libXScrnSaver"]
+    },
+    {
+        "output": "    >=sys-libs/ncurses-5.9-r3:0=[abi_x86_32(-),abi_x86_64(-)] required by (sys-devel/llvm-3.7.1-r3:0/3.7.1::gentoo, installed)",
+	"result": ["sys-libs/ncurses", "sys-devel/llvm"]
+    },
+    {
+        "output": "    sys-libs/ncurses:0/5[cxx,gpm,unicode,abi_x86_32(-),abi_x86_64(-)] required by (sys-libs/ncurses-5.9-r99:5/5::gentoo, installed)",
+	"result": ["sys-libs/ncurses", "sys-libs/ncurses"]
+    },
+    {
+        "output": "    >=sys-libs/ncurses-5.9-r3:0=[abi_x86_32(-),abi_x86_64(-)] required by (sys-libs/gpm-1.20.7-r2:0/0::gentoo, installed)",
+	"result": ["sys-libs/ncurses", "sys-libs/gpm"]
+    },
+    {
+        "output": "    >=sys-libs/ncurses-5.9-r3:0/5=[abi_x86_32(-),abi_x86_64(-)] required by (sys-devel/llvm-3.7.1-r3:0/3.7.1::gentoo, installed)",
+	"result": ["sys-libs/ncurses", "sys-devel/llvm"]
+    },
+    {
+        "output": "    >=virtual/libintl-0-r1[abi_x86_32(-),abi_x86_64(-)] required by (net-libs/gnutls-3.3.24-r1:0/0::gentoo, installed)",
+	"result": ["virtual/libintl", "net-libs/gnutls"]
+    },
+    {
+        "output": "    >=virtual/libintl-0-r1[abi_x86_32(-),abi_x86_64(-)] required by (dev-libs/libgpg-error-1.24:0/0::gentoo, installed)",
+	"result": ["virtual/libintl", "dev-libs/libgpg-error"]
+    },
+    {
+        "output": "    >=virtual/libintl-0-r2[abi_x86_32(-),abi_x86_64(-)] required by (dev-libs/glib-2.48.2:2/2::gentoo, installed)",
+	"result": ["virtual/libintl", "dev-libs/glib"]
+    },
+    {
+        "output": "    >=virtual/jpeg-0-r2:0[abi_x86_32(-),abi_x86_64(-)] required by (media-libs/libmng-2.0.2-r1:0/2::gentoo, installed)",
+	"result": ["virtual/jpeg", "media-libs/libmng"]
+    },
+    {
+        "output": "    >=virtual/jpeg-0-r2:0=[abi_x86_32(-),abi_x86_64(-)] required by (media-libs/tiff-4.0.6:0/0::gentoo, installed)",
+	"result": ["virtual/jpeg", "media-libs/tiff"]
+    },
+    {
+        "output": "    >=virtual/jpeg-0-r2:0[abi_x86_32(-),abi_x86_64(-)] required by (media-libs/lcms-2.6-r1:2/2::gentoo, installed)",
+	"result": ["virtual/jpeg", "media-libs/lcms"]
+    },
+    {
+        "output": "    virtual/jpeg:0[abi_x86_32(-),abi_x86_64(-)] required by (dev-qt/qtgui-4.8.6-r4:4/4::gentoo, installed)",
+	"result": ["virtual/jpeg", "dev-qt/qtgui"]
+    },
+    {
+        "output": "    >=virtual/jpeg-0-r2:0/0=[abi_x86_32(-),abi_x86_64(-)] required by (media-libs/tiff-4.0.6:0/0::gentoo, installed)",
+	"result": ["virtual/jpeg", "media-libs/tiff"]
+    },
+    {
+        "output": "    ~dev-qt/qtxmlpatterns-4.8.6[-aqua,-debug,abi_x86_32(-),abi_x86_64(-)] required by (dev-qt/qtwebkit-4.8.6-r1:4/4::gentoo, installed)",
+	"result": ["dev-qt/qtxmlpatterns", "dev-qt/qtwebkit"]
+    },
+    {
+        "output": "    >=x11-proto/kbproto-1.0.6-r1[abi_x86_32(-),abi_x86_64(-)] required by (x11-libs/libX11-1.6.4:0/0::gentoo, installed)",
+	"result": ["x11-proto/kbproto", "x11-libs/libX11"]
+    },
+    {
+        "output": "    x11-libs/libXext[abi_x86_32(-)] required by (net-im/skype-4.3.0.37-r6:0/0::gentoo, installed)",
+	"result": ["x11-libs/libXext", "net-im/skype"]
+    },
+    {
+        "output": "    >=x11-libs/libXext-1.3.2[abi_x86_32(-),abi_x86_64(-)] required by (x11-libs/libvdpau-1.1.1:0/0::gentoo, installed)",
+	"result": ["x11-libs/libXext", "x11-libs/libvdpau"]
+    },
+    {
+        "output": "    >=x11-libs/libXext-1.3.2[abi_x86_32(-),abi_x86_64(-)] required by (x11-libs/libva-1.6.2:0/0::gentoo, installed)",
+	"result": ["x11-libs/libXext", "x11-libs/libva"]
+    },
+    {
+        "output": "    >=x11-libs/libXext-1.3.2[abi_x86_32(-),abi_x86_64(-)] required by (x11-libs/libXinerama-1.1.3:0/0::gentoo, installed)",
+	"result": ["x11-libs/libXext", "x11-libs/libXinerama"]
+    },
+    {
+        "output": "    >=x11-libs/libXext-1.3.2:0/0=[abi_x86_32(-),abi_x86_64(-)] required by (media-libs/mesa-13.0.0_rc1:0/0::gentoo, installed)",
+	"result": ["x11-libs/libXext", "media-libs/mesa"]
+    },
+    {
+        "output": "    >=x11-libs/libXext-1.3.2:=[abi_x86_32(-),abi_x86_64(-)] required by (media-libs/mesa-13.0.0_rc1:0/0::gentoo, installed)",
+	"result": ["x11-libs/libXext", "media-libs/mesa"]
+    },
+    {
+        "output": "    >=x11-libs/libXext-1.3.2[abi_x86_32(-),abi_x86_64(-)] required by (x11-libs/libXxf86vm-1.1.4:0/0::gentoo, installed)",
+	"result": ["x11-libs/libXext", "x11-libs/libXxf86vm"]
+    },
+    {
+        "output": "    >=x11-libs/libXext-1.3.2[abi_x86_32(-),abi_x86_64(-)] required by (x11-libs/libXi-1.7.7:0/0::gentoo, installed)",
+	"result": ["x11-libs/libXext", "x11-libs/libXi"]
+    },
+    {
+        "output": "    >=x11-libs/libXext-1.3.1-r1[abi_x86_32(-),abi_x86_64(-)] required by (dev-qt/qtgui-4.8.6-r4:4/4::gentoo, installed)",
+        "result": ["x11-libs/libXext", "dev-qt/qtgui"]
+    },
+    {
+        "output": "    >=x11-libs/libXext-1.3.2[abi_x86_32(-),abi_x86_64(-)] required by (x11-libs/libXv-1.0.11:0/0::gentoo, installed)",
+	"result": ["x11-libs/libXext", "x11-libs/libXv"]
+    },
+    {
+        "output": "    >=x11-libs/libXext-1.3.2[abi_x86_32(-),abi_x86_64(-)] required by (x11-libs/libXScrnSaver-1.2.2-r1:0/0::gentoo, installed)",
+	"result": ["x11-libs/libXext", "x11-libs/libXScrnSaver"]
+    },
+    {
+        "output": "    x11-libs/libXext[abi_x86_32(-),abi_x86_64(-)] required by (x11-drivers/ati-drivers-15.12-r1:1/1::gentoo, installed)",
+	"result": ["x11-libs/libXext", "x11-drivers/ati-drivers"]
+    },
+    {
+        "output": "    >=x11-libs/libXext-1.3.2[abi_x86_32(-),abi_x86_64(-)] required by (x11-libs/libXrandr-1.5.1:0/0::gentoo, installed)",
+	"result": ["x11-libs/libXext", "x11-libs/libXrandr"]
+    },
+    {
+        "output": "    >=sys-apps/util-linux-2.24.1-r3[abi_x86_32(-),abi_x86_64(-)] required by (x11-libs/libSM-1.2.2-r1:0/0::gentoo, installed)",
+	"result": ["sys-apps/util-linux", "x11-libs/libSM"]
+    },
+    {
+        "output": "    >=sys-apps/attr-2.4.47-r1[abi_x86_32(-),abi_x86_64(-)] required by (dev-libs/glib-2.48.2:2/2::gentoo, installed)",
+	"result": ["sys-apps/attr", "dev-libs/glib"]
+    },
+    {
+        "output": "    >=x11-proto/xineramaproto-1.2.1-r1[abi_x86_32(-),abi_x86_64(-)] required by (x11-libs/libXinerama-1.1.3:0/0::gentoo, installed)",
+	"result": ["x11-proto/xineramaproto", "x11-libs/libXinerama"]
+    },
+    {
+        "output": "    >=sys-libs/ncurses-5.9-r3[abi_x86_32(-),abi_x86_64(-)] required by (sys-libs/readline-6.3_p8-r2:0/0::gentoo, installed)",
+	"result": ["sys-libs/ncurses", "sys-libs/readline"]
+    },
+    {
+        "output": "    >=virtual/libiconv-0-r2[abi_x86_32(-),abi_x86_64(-)] required by (dev-qt/qtcore-4.8.6-r2:4/4::gentoo, installed)",
+	"result": ["virtual/libiconv", "dev-qt/qtcore"]
+    },
+    {
+        "output": "    >=virtual/libiconv-0-r1[abi_x86_32(-),abi_x86_64(-)] required by (dev-libs/glib-2.48.2:2/2::gentoo, installed)",
+	"result": ["virtual/libiconv", "dev-libs/glib"]
+    },
+    {
+        "output": "    media-sound/apulse[abi_x86_32(-)] required by (net-im/skype-4.3.0.37-r6:0/0::gentoo, installed)",
+	"result": ["media-sound/apulse", "net-im/skype"]
+    },
+    {
+        "output": "    >=media-libs/gstreamer-0.10.36:0.10[introspection,abi_x86_32(-),abi_x86_64(-)] required by (media-libs/gst-plugins-base-0.10.36-r2:0.10/0.10::gentoo, installed)",
+	"result": ["media-libs/gstreamer", "media-libs/gst-plugins-base"]
+    },
+    {
+        "output": "    >=media-libs/gstreamer-0.10.36-r2:0.10[abi_x86_32(-),abi_x86_64(-)] required by (media-libs/gst-plugins-base-0.10.36-r2:0.10/0.10::gentoo, installed)",
+	"result": ["media-libs/gstreamer", "media-libs/gst-plugins-base"]
+    },
+    {
+        "output": "    >=media-libs/gstreamer-0.10.36-r1:0.10[abi_x86_32(-),abi_x86_64(-)] required by (dev-qt/qtwebkit-4.8.6-r1:4/4::gentoo, installed)",
+	"result": ["media-libs/gstreamer", "dev-qt/qtwebkit"]
+    },
+    {
+        "output": "    media-libs/alsa-lib[abi_x86_32(-),abi_x86_64(-)] required by (media-sound/apulse-0.1.7:0/0::gentoo, installed)",
+	"result": ["media-libs/alsa-lib", "media-sound/apulse"]
+    },
+    {
+        "output": "    media-libs/alsa-lib[abi_x86_32(-)] required by (net-im/skype-4.3.0.37-r6:0/0::gentoo, installed)",
+	"result": ["media-libs/alsa-lib", "net-im/skype"]
+    },
+    {
+        "output": "    >=media-libs/gst-plugins-base-0.10.36-r1:0.10[abi_x86_32(-),abi_x86_64(-)] required by (dev-qt/qtwebkit-4.8.6-r1:4/4::gentoo, installed)",
+	"result": ["media-libs/gst-plugins-base", "dev-qt/qtwebkit"]
+    },
+    {
+        "output": "    >=x11-libs/libICE-1.0.8-r1[abi_x86_32(-),abi_x86_64(-)] required by (dev-qt/qtgui-4.8.6-r4:4/4::gentoo, installed)",
+	"result": ["x11-libs/libICE", "dev-qt/qtgui"]
+    },
+    {
+        "output": "    >=x11-libs/libICE-1.0.8-r1[abi_x86_32(-),abi_x86_64(-)] required by (x11-libs/libSM-1.2.2-r1:0/0::gentoo, installed)",
+	"result": ["x11-libs/libICE", "x11-libs/libSM"]
+    }
+]
