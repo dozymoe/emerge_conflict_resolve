@@ -49,7 +49,7 @@ def emerge_and_collect(args, loop, queue):
 
             match = RE_CONFLICTED_PACKAGES.match(line)
             if match:
-                packages_reinstalled.add(match.group('package1'))
+                #packages_reinstalled.add(match.group('package1'))
                 packages_reinstalled.add(match.group('package2'))
 
         except asyncio.QueueEmpty:
